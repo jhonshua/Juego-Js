@@ -1,5 +1,42 @@
-# Game phaser
+# Pecas
 
-Phaser is a 2D game framework used for making HTML5 games for desktop and mobile. It is free software developed by Photon Storm. Phaser uses both a Canvas and WebGL renderer internally and can automatically swap between them based on browser support. This allows for fast rendering across desktop and mobile.
+Juego de plataformas 2D en HTML5 con [Phaser 3](https://phaser.io/). El perro recoge huesos, esquiva bombas y sobrevive cada oleada en un cementerio de noche.
 
-![WhatsApp Image 2023-05-12 at 7 22 32 PM](https://upload.wikimedia.org/wikipedia/commons/e/e7/Phaser_Logo.png)
+**Demo:** [https://jhonshua.github.io/Juego-Js/](https://jhonshua.github.io/Juego-Js/)
+
+Creado por [Julio Cesar Llinas](https://www.linkedin.com/in/julio-cesar-llinas-ba65a6127/).
+
+## Cómo jugar
+
+- **Mover:** flechas o `A` / `D`
+- **Saltar:** flecha arriba, `W` o espacio
+- **Reiniciar:** `R` o clic
+- **Idioma:** ES / EN (arriba a la derecha)
+- **Pantalla grande:** icono junto al selector de idioma
+
+Tienes **3 vidas**. Cada oleada completa suelta una bomba más rápida. El récord se guarda en el navegador.
+
+Una **caída desde muy alto** (por ejemplo, de la caja superior al suelo) es muerte inmediata. Bajar un peldaño o un salto normal no mata.
+
+En móvil hay botones táctiles para mover y saltar.
+
+## Local
+
+```bash
+npm install
+npm start
+```
+
+Abre [http://127.0.0.1:5174](http://127.0.0.1:5174).
+
+## Stack
+
+- Phaser 3
+- Express (servidor estático en local)
+- HTML / CSS / JavaScript
+
+## Autor
+
+**Julio Cesar Llinas**  
+LinkedIn: [julio-cesar-llinas](https://www.linkedin.com/in/julio-cesar-llinas-ba65a6127/)  
+GitHub: [jhonshua](https://github.com/jhonshua)

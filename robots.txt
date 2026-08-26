@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://jhonshua.github.io/Juego-Js/sitemap.xml
